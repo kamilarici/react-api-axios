@@ -1,0 +1,43 @@
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.car {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+img {
+  width: 400px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 15px;
+  padding: 5px;
+  border: 1px solid grey;
+  transition: all 2s;
+  &:hover {
+    scale: 0.9;
+  }
+}
+body {
+  text-align: center;
+  background-color: sandybrown;
+}
+input {
+  width: 40%;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 21px;
+  margin: 10px 0;
+}
+label {
+  font-size: x-large;
+}
